@@ -33,7 +33,7 @@ export default function Index() {
 
     return (
         <>
-            {/* <Layout> */}
+            <Layout>
                 <Switch>
                     {/* <Route exact path={BASE_URL.BASE_URL + 'demo'}>
                         <Demo />
@@ -116,7 +116,7 @@ export default function Index() {
                     </Route>
 
                 </Switch>
-            {/* </Layout> */}
+            </Layout>
         </>
     );
 }

@@ -17,7 +17,7 @@ const Home = () => {
     return (
         <>
 
-            <div class="top-main-bg">
+            {/* <div class="top-main-bg">
                 <div class="container">
                     <div class="top-main">
                         <div class="top-left">
@@ -78,7 +78,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
 
 
@@ -580,10 +580,10 @@ const Home = () => {
 
                             <div class="qui-lnk">
                                 <ul>
-                                    <li> <a href="./investors.html">Jobs</a></li>
-                                    <li> <a href="./buy a home.html">Help</a></li>
-                                    <li> <a href="./sell a home.html">Faq</a></li>
-                                    <li> <a href="./sell a home.html">Contact Us</a></li>
+                                    <li> <a >Jobs</a></li>
+                                    <li> <a >Help</a></li>
+                                    <li> <a >Faq</a></li>
+                                    <li> <a >Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -596,10 +596,10 @@ const Home = () => {
 
                             <div class="qui-lnk">
                                 <ul>
-                                    <li> <a href="./investors.html">Home</a></li>
-                                    <li> <a href="./buy a home.html">News</a></li>
-                                    <li> <a href="./sell a home.html">Services</a></li>
-                                    <li> <a href="./sell a home.html">Testimonials</a></li>
+                                    <li> <a >Home</a></li>
+                                    <li> <a>News</a></li>
+                                    <li> <a>Services</a></li>
+                                    <li> <a>Testimonials</a></li>
                                 </ul>
                             </div>
                         </div>
