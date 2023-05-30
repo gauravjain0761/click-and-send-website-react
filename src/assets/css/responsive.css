@@ -1,0 +1,1083 @@
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 530px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1300px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1420px;
+    }
+
+}
+
+@media (max-width: 1680px) {
+    /* .product_above_image {
+        height: 380px !important;
+    }
+
+    .product_below_image {
+        height: 450px !important;
+    } */
+
+    .common_title,
+    .home_banner_title h2,
+    .join_the_club_inner h2 {
+        font-size: 48px;
+    }
+
+    .summer_list {
+        margin-top: 20px;
+    }
+
+    .see_all_link {
+        right: 0;
+    }
+
+    .shop_hald_info h3 {
+        font-size: 32px;
+    }
+
+    .common_product_details>div {
+        font-size: 20px;
+        margin-top: 14px;
+    }
+
+    .product_title_wrap h2 {
+        font-size: 22px;
+    }
+
+    .product_filters {
+        padding: 8px 15px;
+    }
+
+    .structured_fabric_wrapper {
+        padding: 55px 0;
+    }
+
+    .might_like_wrap.cloth_wrap {
+        padding: 66px 0;
+    }
+
+    .star_content {
+        padding: 98px 0 40px
+    }
+}
+
+@media (max-width: 1399px) {
+
+    .common_title,
+    .home_banner_title h2,
+    .join_the_club_inner h2 {
+        font-size: 48px;
+    }
+
+    .summer_list {
+        margin-top: 15px;
+    }
+
+    .bunavat_nav_wrap p {
+        font-size: 15px;
+    }
+
+    .shop_hald_info h3 {
+        font-size: 32px;
+    }
+
+    .cloth_info_title {
+        padding: 20px;
+    }
+
+    .summer_list_link p,
+    .summer_list_link_wrap p,
+    .save_wrap p {
+        font-size: 14px;
+    }
+
+    .save_wrap svg {
+        width: 18px;
+        height: 18px;
+    }
+
+    .cloth_title_wrap h2,
+    .cloth_title_wrap h2 p {
+        font-size: 44px;
+    }
+
+    .recently_col_wrap .row {
+        flex-wrap: unset;
+        padding-bottom: 15px;
+        overflow-x: auto;
+    }
+
+    .recently_col_wrap .row .col {
+        flex: 0 0 125px;
+        max-width: 125px;
+    }
+
+    .product_info_section_wrap {
+        padding: 0 100px;
+    }
+}
+
+@media (max-width: 1199px) {
+
+    .common_title,
+    .home_banner_title h2,
+    .join_the_club_inner h2 {
+        font-size: 38px;
+    }
+
+    .summer_list div+div {
+        margin-left: 30px;
+    }
+
+    .shop_hald_info h3 {
+        font-size: 26px;
+    }
+
+    .shop_hald_info svg {
+        width: 17px;
+        height: 17px;
+    }
+
+    .join_the_club_inner p {
+        font-size: 16px;
+    }
+
+    .tel_number {
+        margin-bottom: 40px;
+    }
+
+    .join_the_club_inner p {
+        margin: 12px 0 20px;
+    }
+
+    .tel_number_wrap input {
+        font-size: 16px;
+    }
+
+    .join_btn {
+        font-size: 16px;
+    }
+
+    .cloth_title_wrap h2,
+    .cloth_title_wrap h2 p {
+        font-size: 38px;
+    }
+
+    .product_page .product_info_section_wrap {
+        padding: 100px 70px;
+    }
+
+    .product_title_wrap h2 {
+        font-size: 20px;
+    }
+
+    .common_product_details>div {
+        font-size: 20px;
+        margin-top: 22px;
+    }
+
+
+    .stock_info h3 {
+        font-size: 12px;
+    }
+
+    .stock_title_wrap {
+        margin-right: 10px;
+    }
+
+    .star_content>p {
+        font-size: 18px;
+    }
+
+    .star_content {
+        padding: 50px 0 0px;
+    }
+
+    .might_like_wrap.cloth_wrap {
+        padding: 0px 0 50px;
+    }
+
+    .product_left_details {
+        padding: 20px 30px;
+    }
+
+    .product_left_details p {
+        font-size: 18px;
+    }
+
+    .product_left_details span {
+        font-size: 12px;
+    }
+
+    .know_inner {
+        padding: 20px 0;
+    }
+
+    .structured_fabric_wrapper {
+        padding: 50px 0;
+    }
+
+    .product_left_details p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .fix-padding-might_like_inner {
+        padding: '0px 2px 0px 2px'
+    }
+
+    .product_below_image {
+        height: 266px !important;
+    }
+
+    .product_above_image {
+        height: 300px !important;
+    }
+
+    .structured_fabric_wrapper {
+        padding: 20px 0;
+    }
+
+    #toggle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 28px;
+        height: 30px;
+        display: none;
+        position: relative;
+        right: 0;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    #toggle div {
+        width: 100%;
+        height: 3px;
+        background: #fff;
+        margin: 0 auto;
+        transition: all .5s ease 0s;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    #toggle div:nth-child(2) {
+        margin: 5px auto;
+    }
+
+    body[side-menu="side_bar"] #toggle .two {
+        opacity: 0;
+    }
+
+    body[side-menu="side_bar"] #toggle .three {
+        -webkit-transform: rotate(-45deg) translate(6px, -7px);
+        transform: rotate(-45deg) translate(6px, -7px);
+    }
+
+    body[side-menu="side_bar"] #toggle .one {
+        -webkit-transform: rotate(45deg) translate(5px, 5px);
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .account_info li:last-child,
+    #toggle {
+        display: flex;
+    }
+
+    .bunavat_nav_link_inner_list {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        left: 0px;
+        top: 0px;
+        background-color: #fff;
+        transform: translateX(-100%);
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+
+    body[side-menu="side_bar"] .bunavat_nav_link_inner_list {
+        transform: translateX(0%);
+    }
+
+    .bunavat_nav_wrap p {
+        color: #2A3592;
+    }
+
+    .bunavat_nav_link_wrap ul.bunavat_nav_link_inner_list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .bunavat_nav_link_inner_list li+li {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .bunavat_nav_wrap svg path {
+        stroke: #2A3592;
+    }
+
+    .bunavat_wrapper.active #toggle div,
+    body[side-menu="side_bar"] #toggle div {
+        background: #2A3592;
+    }
+
+    .account_info li+li {
+        margin-left: 20px;
+    }
+
+    .cart_items p {
+        margin-left: 5px;
+    }
+
+    .common_title,
+    .home_banner_title h2,
+    .join_the_club_inner h2 {
+        font-size: 34px;
+    }
+
+    .summer_list_link p,
+    .summer_list_link_wrap p {
+        font-size: 14px;
+    }
+
+    .common_home_banner {
+        height: 45vh;
+    }
+
+    .common_home_banner img {
+        height: 100%;
+    }
+
+    .tab_section_wrap .nav-tabs::-webkit-scrollbar {
+        display: none;
+    }
+
+    .tab_section_wrap .nav-tabs {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .tab_section_wrap .nav-tabs {
+        flex-wrap: unset;
+        overflow-x: auto;
+        overflow-y: hidden;
+        padding-bottom: 15px;
+        padding-left: 12px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .tab_section_wrap .nav-tabs .nav-link {
+        white-space: nowrap;
+        padding: 10px 0 5px;
+        font-size: 12px;
+    }
+
+    .see_all_link {
+        top: 74px;
+        display: none;
+    }
+
+    .tab_common_contain {
+        margin-top: 15px;
+    }
+
+    .common_tab_title {
+        padding: 30px 20px 20px;
+        flex-direction: column;
+    }
+
+    .summer_list_link p,
+    .summer_list_link_wrap p {
+        font-size: 14px;
+    }
+
+    .cloth_info_title .summer_list_link {
+        margin-bottom: 5px;
+        display: none;
+    }
+
+    .summer_list_link {
+        margin-bottom: 5px;
+        justify-content: space-between;
+    }
+
+    .shop_hald_info h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .shop_hald_info svg {
+        width: 15px;
+        height: 15px;
+    }
+
+    .cloth_wrap .cloth_inner .row>div {
+        flex: 0 0 50%;
+        max-width: 50%;
+        height: 400px;
+    }
+
+    .cloth_wrap .cloth_inner .row>div:nth-child(5n) {
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: 480px;
+    }
+
+    .cloth_wrap .cloth_deatils_link img {
+        width: 100%;
+        object-fit: cover;
+        object-position: 50% 0%;
+        height: 100% !important;
+    }
+
+    .cloth_wrap .cloth_inner .row {
+        margin: 0 -5px;
+    }
+
+    .cloth_wrap .cloth_inner .row>div {
+        padding: 0 2px;
+    }
+
+    .cloth_inner .row>div:nth-child(n+3) {
+        margin-top: 4px;
+    }
+
+    .cloth_wrap .cloth_inner .row>div {
+        height: 320px;
+    }
+
+    .cloth_info_title {
+        padding: 12px;
+        align-items: center;
+    }
+
+    .footer_header_wrap,
+    .footer_header_wrap ul {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .footer_header_wrap ul li {
+        width: 50%;
+        margin-bottom: 0px;
+    }
+
+    .footer_header_wrap ul li+li {
+        margin-left: 0;
+    }
+
+    .social_media_wrap {
+        width: 100%;
+        margin-top: 20px;
+        padding: 25px 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .social_media_wrap a {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .join_the_club_inner p {
+        font-size: 16px;
+    }
+
+    .cloth_title_wrap h2,
+    .cloth_title_wrap h2 p {
+        font-size: 30px;
+    }
+
+    .design_filter button {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+
+    .design_filter {
+        padding: 20px 0 45px;
+    }
+
+    .category_page_wrapper {
+        padding: 150px 0 100px;
+    }
+
+    .design_filter {
+        overflow-x: auto;
+        justify-content: flex-start;
+        padding: 15px 0 20px;
+        margin-bottom: 30px;
+    }
+
+    .cloth_title_wrap h2 {
+        flex-direction: column;
+    }
+
+    .product_page .product_info_section_wrap {
+        padding: 100px 50px 50px;
+        background-color: #fff;
+    }
+
+    .product_info_right_section_wrap {
+        align-items: center;
+    }
+
+    .product_info_right_section_wrap>div {
+        margin: 0;
+    }
+
+    .structured_fabric_inner .row>div:nth-child(n+3) {
+        margin-top: 0px;
+    }
+
+    .might_like_wrap .cloth_inner .row>div:nth-child(n+3) {
+        margin-top: 4px;
+    }
+
+    .common_select_wrap {
+        max-width: 220px;
+    }
+
+    .product_filters_wrap.product_page_filtter {
+        max-width: 440px;
+    }
+}
+
+@media (max-width: 767px) {
+
+
+    .summer_list_link_wrap_changes {
+        color: #fff !important;
+    }
+
+
+    .cloth_info_title_changes {
+        /* background: linear-gradient(180deg, rgba(247, 247, 247, 0) 0%, rgba(247, 247, 247, 0.9) 80.21%); */
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+    }
+
+    .product_slider_height_container {
+        height: 62vh;
+        width: 100%;
+    }
+
+    .product_slider_height_container_ios {
+        height: 58vh;
+        width: 100%;
+    }
+
+    .product_slider_height,
+    .product_slider_video_height,
+    .product_slider_img_height {
+        height: 100%;
+        width: 100%;
+    }
+
+    .pin_code_weap_ok {
+        right: 0;
+    }
+
+    .product_filters {
+        height: auto;
+        padding: 0px 0px;
+        width: 100%;
+        border-radius: 0px;
+        bottom: 0px;
+    }
+
+    .star_content {
+        padding: 50px;
+        align-items: flex-start;
+    }
+
+    .star_content>p {
+        text-align: left;
+    }
+
+    .female_details {
+        text-align: left;
+    }
+
+    .might_like_wrap.cloth_wrap {
+        padding: 32px 0 8px 0;
+    }
+
+    .common_title,
+    .home_banner_title h2,
+    .join_the_club_inner h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .summer_list {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .summer_list div+div {
+        margin-left: 0;
+        margin-top: 12px;
+    }
+
+    .tab_common_contain .row {
+        margin: 0 -10px;
+    }
+
+    .tab_common_contain .row>div {
+        padding: 0 10px;
+    }
+
+    .tab_common_contain .row>div:nth-child(n+3) {
+        margin-top: 20px;
+    }
+
+    .shop_hald_inner {
+        flex-wrap: wrap;
+        margin-top: 0px;
+    }
+
+    .shop_hald_inner>div:first-child {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .shop_hald_inner>div+div {
+        width: 50%;
+    }
+
+    .shop_hald_inner>div+div h3 {
+        font-size: 16px;
+    }
+
+    .shop_hald_info p {
+        font-size: 12px;
+    }
+
+    .shop_hald_wrap {
+        padding: 32px 0 55px 24px;
+    }
+
+    .summer_list_link_wrap {
+        margin-bottom: 0px;
+    }
+
+    .mobile_summer_list_link_wrap {
+        margin-bottom: -8px !important;
+    }
+
+    .mobile_summer_list_link_wrap p {
+        font-family: Newhero;
+    }
+
+    /* .mobile_save_wrap{
+       margin-bottom: 10px;
+    } */
+
+    .summer_list_link span {
+        display: flex;
+    }
+
+    .footer_blog_inner {
+        padding: 0px 0 56px;
+    }
+
+    .footer_logo {
+        right: 50%;
+        display: none;
+        transform: translateX(50%);
+    }
+
+    .join_the_club_wrap {
+        padding: 364px 0 64px;
+    }
+
+    .tel_number_wrap input,
+    .join_btn {
+        height: 50px;
+    }
+
+    .join_the_club_padding {
+        padding: 0 24px;
+    }
+
+    .tel_number {
+        margin-bottom: 20px;
+    }
+
+    .sidebar_wrapper>.common_link_wrap>li {
+        height: auto;
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding: 15px 0 5px;
+        overflow-y: scroll;
+        border-bottom: 1px solid #e3e3e3;
+    }
+
+    .common_link_wrap li {
+        height: 50px;
+        max-width: 100%;
+        border: unset;
+    }
+
+    .inner_menu_wrap {
+        margin-top: 15px;
+    }
+
+    .inner_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .common_arrow_btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .inner_menu .inner_menu_wrap {
+        height: 0px;
+        position: unset;
+        transform: unset;
+        transition: all 0.5s ease 0s;
+        margin-top: unset;
+    }
+
+    .sidebar_menu_list {
+        max-width: 100%;
+    }
+
+    body[menu-class="kind_menu"] .kind_menu.inner_menu .inner_menu_wrap,
+    body[menu-class="bridal_menu"] .bridal_menu.inner_menu .inner_menu_wrap,
+    body[menu-class="festive_menu"] .festive_menu.inner_menu .inner_menu_wrap,
+    body[menu-class="regional_menu"] .regional_menu.inner_menu .inner_menu_wrap {
+        max-width: 100%;
+        opacity: 1;
+        visibility: visible;
+        height: auto;
+    }
+
+    .common_sidebar_link span {
+        font-size: 20px;
+    }
+
+    .sidebar_menu_list {
+        padding: 20px;
+    }
+
+    .common_home_banner {
+        /* padding: 50px 0; */
+    }
+
+    .category_page_wrapper {
+        padding: 106px 0 50px;
+    }
+
+    .cloth_title_wrap h2,
+    .cloth_title_wrap h2 p {
+        font-size: 26px;
+        text-align: center;
+        font-size: 44px !important;
+        font-style: normal;
+        font-weight: 300;
+        color: #000000;
+        line-height: 60px !important;
+    }
+
+    .cloth_wrap {
+        padding: 8px 0;
+    }
+
+    .cloth_title_wrap h2 p {
+        margin-bottom: 10px;
+    }
+
+    .design_filter {
+        margin-bottom: 15px;
+    }
+
+    .product_slider_section .row {
+        flex-direction: column-reverse;
+    }
+
+    .product_slider .slick-dots {
+        align-items: flex-end;
+    }
+
+    .product_info_right_section_wrap>div {
+        margin: 0;
+    }
+
+    .product_page .product_info_section_wrap {
+        padding: 16px 30px 40px;
+        background-color: #fff;
+    }
+
+    .cloth_deatils_wrap a::after {
+        height: 150px;
+    }
+
+    .product_info_right_section_wrap .slaman_link {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 16px 30px;
+        position: absolute;
+        bottom: 188px;
+        z-index: 999;
+        display: none;
+    }
+
+    .product_filters .slaman_link {
+        display: none;
+    }
+
+    .visible-slaman_link {
+        display: flex !important;
+        bottom: 0 !important;
+        justify-content: flex-end !important;
+    }
+
+    .common_select_wrap {
+        max-width: 50%;
+    }
+
+    .product_filters_wrap.product_page_filtter {
+        max-width: 100%;
+    }
+
+    .recemtly_wrap {
+        padding: 40px 0 0;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .common_title,
+    .home_banner_title h2,
+    .join_the_club_inner h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .summer_list_link p,
+    .summer_list_link_wrap p {
+        font-size: 14px;
+    }
+
+    .tab_common_contain .row {
+        margin: 0 -5px;
+    }
+
+    .tab_common_contain .row>div {
+        padding: 0 2px;
+    }
+
+    .tab_common_contain .row>div:nth-child(n+3) {
+        margin-top: 4px;
+    }
+
+    .summer_list_link p,
+    .summer_list_link_wrap p {
+        font-size: 12px;
+    }
+
+    .summer_list_link .big-font {
+        font-size: 14px;
+    }
+
+    .summer_list_link_wrap p {
+        font-size: 12px;
+    }
+
+    .common_tab_title {
+        padding: 15px 10px 15px;
+    }
+
+    .social_media_wrap {
+        padding: 20px 20px 20px 0;
+    }
+
+    .cloth_wrap .cloth_inner .row>div {
+        height: 300px;
+    }
+
+    .cart_inner {
+        max-width: 100%;
+    }
+
+    .cart_information {
+        padding: 20px 15px;
+    }
+
+    .card_img {
+        width: 100px;
+    }
+
+    .quantiy_wrapper {
+        margin: 20px 0;
+    }
+
+    .cart_product_info {
+        margin-left: 15px;
+        width: 66%;
+    }
+
+    .product_page .product_info_section_wrap {
+        padding: 16px 30px 40px;
+        background-color: #fff;
+    }
+
+    .structured_fabric_inner .row>div:nth-child(n+2) {
+        /* margin-top: 20px; */
+    }
+
+    .know_inner p {
+        font-size: 14px;
+    }
+
+    .recently_col_wrap {
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 400px) {
+    .footer_header_wrap ul li {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .account_info li+li {
+        margin-left: 12px;
+    }
+
+    .cart_items p {
+        width: 15px;
+        height: 15px;
+        font-size: 8px;
+    }
+
+    .common_title,
+    .home_banner_title h2,
+    .join_the_club_inner h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .cart_information {
+        padding: 12px 15px;
+    }
+
+    .cloth_wrap .cloth_inner .row>div {
+        height: 266px;
+    }
+
+    .produt_time_wrap p {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .product_page .product_info_section_wrap {
+        padding: 16px 30px 40px;
+        background-color: #fff;
+    }
+}
+
+@media (max-width: 367px) {
+    .cloth_wrap .cloth_inner .row>div {
+        height: 266px;
+    }
+
+    .mobile_summer_list_link_wrap p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .display_none_in_mobile {
+        display: none;
+    }
+
+    .card_fixed .tab-content {
+        height: calc(80vh - 10px);
+    }
+
+    .footer_header_wrap ul li p {
+        margin-bottom: 20px;
+    }
+
+    .footer_header_wrap ul li span {
+        margin-bottom: 12px;
+    }
+
+    .social_media_wrap p {
+        margin-left: 0rem;
+    }
+
+    .color_list li {
+        width: 26px;
+        height: 26px;
+    }
+
+    .footer_blog_section {
+        padding: 0px 0;
+    }
+
+    .eventsClubBox_second_top_premium_btn {
+        padding: 0 6px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .common_option,
+    .color_wrapper p {
+        font-size: 12px;
+        color: #2A3592;
+        font-weight: 600;
+        font-family: Newhero;
+        letter-spacing: -0.02em;
+    }
+
+
+    .chet_size span {
+        margin-left: 12px;
+    }
+
+    .chet_size_number span {
+        margin-left: 24px !important;
+    }
+
+    .MuiMenu-root .MuiPaper-root {
+        width: 100%;
+    }
+}

@@ -1,0 +1,87 @@
+.errorPage {
+    padding: 12rem 0;
+    background: #eaebf0;
+    /* height: 100vh; */
+}
+
+.errorPage_box {
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+@media only screen and (max-width: 668px) {
+    .errorPage_box {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+.errorPage_box h3 {
+    font-family: Newspirit;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-top: 30px;
+}
+
+.errorPage_box p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #70758A;
+}
+
+.errorPage_box .btn {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding: 1rem 2rem;
+    background: #2A3592;
+    backdrop-filter: blur(10px);
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.errorPage_box .btn:hover {
+    color: #FFFFFF;
+    background: #2A3592;
+}
+
+.errorPage_box .btn:active {
+    color: #FFFFFF !important;
+    background: #2A3592 !important;
+}
+
+.errorPage_box .btn:focus {
+    color: #FFFFFF !important;
+    background: #2A3592 !important;
+}
+
+.errorPage_box a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #2A3592;
+    margin-top: 20px;
+}
+
+.errorPage_box a:hover {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    text-decoration-line: underline;
+    color: #2A3592;
+    margin-top: 20px;
+}

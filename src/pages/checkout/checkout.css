@@ -1,0 +1,277 @@
+#checkout {
+    background-color: #eaebf0;
+    /* height: 100vh; */
+    padding: 120px 0px;
+}
+
+.checkout_great {
+    padding: 2rem 0.6rem;
+}
+
+.checkout_great h3 {
+    font-family: Newspirit;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+}
+
+.checkout_great span {
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #70758A;
+    letter-spacing: -0.02em;
+}
+
+.checkout_box {
+    background-color: #fff;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.checkout_box_heading {
+    padding: 2rem 2rem 1rem 2rem;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.checkout_box_list {
+    padding: 0.6rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout_box_list h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.checkout_box_list span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #9A9EB0;
+}
+
+.checkout_box_footer {
+    cursor: pointer;
+    border-radius: 0px 0px 4px 4px;
+    padding: 1rem 0;
+    background: #2A3592;
+    color: #fff !important;
+}
+
+.checkout_box_footer h3 {
+    color: #fff !important;
+}
+
+.checkout_form input {
+    padding: 1.8rem 1rem;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color: #000000;
+    border: none;
+}
+
+.mobile_view {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .desktop_view {
+        display: none;
+    }
+
+    .mobile_view {
+        display: block;
+    }
+
+    .checkout_box_list {
+        padding: 0.6rem 1rem
+    }
+}
+
+.applyCouponModal_body {
+    padding: 1rem;
+    background: #EAEBF0;
+    box-shadow: 0px 16px 32px rgb(0 0 0 / 10%);
+    border-radius: 16px;
+}
+
+.applyCouponModal_box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.applyCouponModal_box .checkout_box_heading {
+    display: flex;
+    padding: 2rem;
+}
+
+.applyCouponModal_box span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #9A9EB0;
+    margin-right: 2rem;
+}
+
+.applyCouponModal_box .applyCouponModal_box_input {
+    border: none;
+    height: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    /* text-align: center; */
+    letter-spacing: 0.2em;
+    color: #2A3592;
+}
+
+.applyCouponModal_box .applyCouponModal_box_input:focus {
+    box-shadow: none;
+}
+
+.applyCouponModal_box .applyCouponModal_box_btn {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    background: #2A3592;
+    padding: 2rem;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+
+
+/* payment options page css */
+.payment_options_page {
+    background: #E5E5E5;
+    padding: 8rem 0;
+}
+
+.payment_options_page .payment_options_page_data {
+    width: 40%;
+    margin: auto;
+}
+
+
+.payment_options_page .payment_options_page_data .payment_options_page_data_heading h4 {
+    font-family: Newspirit;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.payment_options_page .payment_options_page_data .payment_options_page_data_heading p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #70758A;
+    margin-top: 8px;
+}
+
+.payment_options_page .payment_options_page_data .payment_options_page_box {
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.payment_options_page .payment_options_page_data .payment_options_page_box .payment_options_page_box_list {
+    padding: 1.4rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.payment_options_page .payment_options_page_data .payment_options_page_box .payment_options_page_box_list h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.payment_options_page .payment_options_page_data .payment_options_page_box .payment_options_page_box_list span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #9A9EB0;
+}
+
+.payment_options_page .payment_options_page_box_hidden {
+    background: #dbdbdb;
+}
+
+.payment_options_page .payment_options_page_box_hidden .payment_options_page_box_hidden_data {
+    padding: 0.6rem 0.6rem 0 0.6rem;
+}
+
+.payment_options_page .payment_options_page_box_hidden .payment_options_page_box_hidden_data input {
+    background: #FFFFFF;
+    border-radius: 4px;
+    border: none;
+    padding: 2rem 1rem;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #9A9EB0;
+}
+
+.payment_options_page .payment_options_page_box_hidden .payment_options_page_box_hidden_footer {
+    background: #2A3592;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.4rem 2rem;
+    border-radius: 0 0px 4px 4px;
+    cursor: pointer;
+}
+
+.payment_options_page .payment_options_page_box_hidden .payment_options_page_box_hidden_footer span {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 668px) {
+    .payment_options_page .payment_options_page_data {
+        width: 80%;
+        margin: auto;
+    }
+
+    .payment_options_page .payment_options_page_data .payment_options_page_box .payment_options_page_box_list {
+        padding: 1rem;
+    }
+
+    .payment_options_page .payment_options_page_box_hidden .payment_options_page_box_hidden_footer {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,197 @@
+.sizeguide_page {
+    padding: 12rem 0 6rem 0;
+    background: #eaebf0;
+}
+
+.sizeguide_page_top {
+    text-align: center;
+}
+
+.sizeguide_page_top h6 {
+    font-family: Newspirit;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.sizeguide_page_top p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #70758A;
+    margin: 0.6rem 0 2rem 0;
+}
+
+.sizeguide_page_top a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #2A3592;
+}
+
+.sizeguide_page_top a:hover {
+    color: #2A3592;
+}
+
+.sigeGuide_page_table {
+    width: 60%;
+    margin: 3rem auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .sigeGuide_page_table {
+        width: 90%;
+    }
+
+    .sizeguide_page {
+        padding: 8rem 0 6rem 0;
+    }
+}
+
+.sigeGuide_page_table .table-bordered td,
+.table-bordered th {
+    border: 0;
+    padding: 1.4rem;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #2A3592;
+}
+
+.sigeGuide_page_table .table thead th {
+    padding: 1.4rem;
+    font-weight: 700;
+}
+
+.sigeGuide_page_table .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #F2F4FF;
+}
+
+.sigeGuide_page_table .table-hover tbody tr:hover {
+    color: #212529;
+    background-color: #F2F4FF;
+}
+
+.sigeGuide_page_measure {
+    width: 60%;
+    margin: 3rem auto;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 668px) {
+    .sigeGuide_page_measure {
+        width: 90%;
+    }
+}
+
+.sigeGuide_page_measure_text {
+    padding: 4rem 2rem;
+}
+
+.sigeGuide_page_measure_text h4 {
+    font-family: Newspirit;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #2A3592;
+}
+
+.sigeGuide_page_measure_text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #2A3592;
+}
+
+.sigeGuide_page_measure_text .sigeGuide_page_measure_text_list {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.sigeGuide_page_measure_text .sigeGuide_page_measure_text_list span {
+    background: #FBF2ED;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 1rem;
+    width: 50px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #2A3592;
+    margin-right: 1rem;
+}
+
+.sigeGuide_page_measure_text .sigeGuide_page_measure_text_list h6 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #2A3592;
+}
+
+.sigeGuide_page_measure_text .sigeGuide_page_measure_text_list p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #2A3592;
+}
+
+/* mobile responsive */
+@media only screen and (max-width: 668px) {
+    .sigeGuide_page_table .table thead th {
+        padding: 1.4rem 0.4rem;
+    }
+
+    .sigeGuide_page_table .table-bordered thead td {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #2A3592;
+    }
+
+    .sigeGuide_page_table .table-bordered thead th {
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #2A3592;
+    }
+
+    .sigeGuide_page_table .table-bordered td {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #2A3592;
+        padding: 1.4rem 0.4rem;
+    }
+
+    .sigeGuide_page_measure_text .sigeGuide_page_measure_text_list p {
+        font-size: 12px;
+        color: #2A3592;
+    }
+}

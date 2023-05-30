@@ -1,0 +1,351 @@
+#ordercConfirmation {
+    background-color: #eaebf0;
+    /* height: 100vh; */
+    padding: 8rem 0 0 0;
+}
+
+.text-ellipsis-width {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 260px;
+}
+
+.ordercConfirmation_top h3 {
+    font-family: Newspirit;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
+.ordercConfirmation_top p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #70758A;
+}
+
+.ordercConfirmation_top_help {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ordercConfirmation_top_help p {
+    font-family: Newhero;
+    margin-right: 4px;
+    color: #2A3592;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.orderConfirmation_box_second {
+    padding-top: 2rem;
+    width: 600px;
+    margin: auto;
+}
+
+.orderConfirmation_box {
+    width: 600px;
+    padding: 24px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.footer-conteiner {
+    padding: 38px 64px;
+    background: #fff
+}
+
+@media (max-width: 767px) {
+    .footer-conteiner {
+        padding: 38px 24px;
+    }
+
+    .orderConfirmation_box {
+        width: 100%;
+        margin: auto;
+    }
+
+    .orderConfirmation_box_second {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.orderConfirmation_box_heading {
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 2rem 2rem 1rem 2rem; */
+}
+
+.orderConfirmation_box_heading h6 {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.orderConfirmation_box_heading span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #9A9EB0;
+}
+
+.orderConfirmation_box_list {
+    /* padding: 0.6rem 2rem; */
+    padding: 24px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderConfirmation_box_list h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin-bottom: 0px;
+}
+
+.orderConfirmation_box_list span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: -0.02em;
+    color: #9A9EB0;
+}
+
+.orderConfirmation_box_data {
+    padding: 0.6rem 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orderConfirmation_box_data h3 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.orderConfirmation_box_data p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.orderConfirmation_box_data span {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 50px;
+    letter-spacing: 0.02em;
+    color: #2A3592;
+}
+
+.orderConfirmation_box_data h4 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    color: #2A3592;
+    margin-bottom: 2rem;
+}
+
+.shiping_status_box {
+    background: #FFFFFF;
+    border-radius: 4px;
+    padding: 2rem;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+    .shiping_status_box {
+        width: 80%;
+        margin: 2rem auto;
+    }
+}
+
+.shiping_status_box h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.shiping_status_box span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #9A9EB0;
+}
+
+.shiping_status_box .ordercConfirmation_top_help {
+    margin: 0rem 0;
+    justify-content: end;
+}
+
+.return_status_box {
+    background: #FFFFFF;
+    border-radius: 4px;
+    width: 40%;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+@media (max-width: 767px) {
+    .return_status_box {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+.return_status_box .return_status_box_list {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.return_status_box h6 {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.return_status_box span {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 10px;
+    letter-spacing: -0.02em;
+    color: #9A9EB0;
+}
+
+.disable-shiping_status_box_footer {
+    background: #9e9fa9 !important;
+    cursor: no-drop !important;
+}
+
+.bt-button {
+    background: #2A3592 !important;
+    border: #2A3592 !important;
+    outline: none;
+}
+
+.bt-button:active {
+    background-color: #2A3592 !important;
+    border: #2A3592 !important;
+    outline: none;
+}
+
+.return_status_box .shiping_status_box_footer {
+    background: #2A3592;
+    border-radius: 0 0 4px 4px;
+    cursor: pointer;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.return_status_box .shiping_status_box_footer h6 {
+    color: #fff;
+}
+
+.return_status_box .shiping_status_box_footer span {
+    color: #fff;
+}
+
+.orderConfirmation_box_data_mobileView {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .orderConfirmation_box_data_mobileView {
+        display: block;
+    }
+
+    .orderConfirmation_box_data_desktopView {
+        display: none;
+    }
+
+    .orderConfirmation_box_list h3 {
+        font-size: 14px;
+    }
+
+    .orderConfirmation_box_list span {
+        font-size: 10px;
+    }
+
+    .shiping_status_box h6 {
+        font-size: 12px;
+    }
+
+    .shiping_status_box span {
+        font-size: 10px;
+    }
+
+    .return_status_box .shiping_status_box_footer {
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .shiping_status_box {
+        padding: 1rem;
+    }
+
+    .return_status_box .return_status_box_list {
+        padding: 0 1rem 1rem 1rem;
+    }
+}
+
+.shippingStatusLink {
+    color: #2A3592;
+    border-bottom: 1px solid #2A3592;
+}
+
+.shippingStatusLink:hover {
+    color: #2A3592;
+    border-bottom: 1px solid #2A3592;
+}
+
+
+@media only screen and (max-width: 576px) {
+    .text-ellipsis-width {
+        width: 220px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .text-ellipsis-width {
+        width: 150px;
+    }
+}
