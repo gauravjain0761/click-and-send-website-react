@@ -59,13 +59,13 @@ a {
 .nav-header-container {
   position: sticky;
   top: 0;
-  z-index: 9999;
+  z-index: 999;
   background: #fff;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   transition: all 0.3s ease-in-out;
 }
 
-a,
+/* a,
 a:hover {
   text-decoration: none !important;
   -webkit-transition: .3s all ease;
@@ -73,7 +73,7 @@ a:hover {
   transition: .3s all ease;
   outline: 0;
   color: none !important;
-}
+} */
 
 
 img {
@@ -158,7 +158,7 @@ img {
 
 .content {
 
-  background-image: url(//unsplash.it/1000/1000);
+  /* background-image: url(//unsplash.it/1000/1000); */
   background-color: #333;
   background-blend-mode: multiply;
   background-size: cover;
@@ -963,3 +963,655 @@ input[type="email"]:focus {
 .one-helpful {
   width: 30%;
 }
+
+
+/* new css */
+
+
+.btn-orange {
+  background-color: #ff7534 !important;
+  color: #000;
+}
+
+.text-orange {
+  color: #ff7534;
+}
+
+.bg-orange {
+  background-color: #ff7534;
+  color: #fff;
+}
+
+.orange {
+  color: #ff7534;
+}
+
+.myrounded {
+  border-radius: 30px;
+  width: 100%;
+}
+
+.myrounded-two {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.up {
+  margin-top: -15px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+/* .btn-white {
+  background-color: #ffffff;
+  border: 2px solid #000;
+} */
+
+/* The container */
+.radiocontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radiocontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #ffabab;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radiocontainer:hover input~.checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radiocontainer input:checked~.checkmark {
+  background-color: #ff7534;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radiocontainer input:checked~.checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radiocontainer .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.otpbox {
+  line-height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+.logisticimg {
+  /* background-image: url('../images/logistic.png'); */
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* padding-left: 200px; */
+}
+
+.mybtn {
+  width: 300px;
+  height: 50px;
+  box-shadow: 05px 10px 5px 2px #000;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* padding: 20px; */
+  border-radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.mybtn:hover {
+  width: 300px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 05px 7px 5px 2px #fff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  /* padding: 20px; */
+  border-radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.mybtn2 {
+  border: solid 5px #000;
+  background-color: #ff7534;
+  height: 70px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.btn-active {
+  border: solid 5px #000;
+  background-color: #000;
+  color: #fff;
+  height: 70px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.mybtn2:active {
+  border: solid 5px #000;
+  background-color: #000;
+  color: #fff;
+  height: 70px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.myheadbtn {
+  padding: 0px 1px;
+}
+
+.myimgstyle {
+  border: 5px solid #ff7534;
+  border-radius: 500px;
+  height: 100px;
+  width: 100px;
+  background-color: #000;
+}
+
+.mygap {
+  margin-right: 30px;
+}
+
+.mygap:hover {
+  border-bottom: 3px solid #ff7534;
+}
+
+.activegap {
+  border-bottom: 3px solid #ff7534;
+}
+
+.box {
+  box-shadow: 3px 3px 02px 02px #b1b1b177;
+}
+
+.fw-bold {
+  font-weight: 700;
+  letter-spacing: .5px;
+
+}
+
+.fa_lg {
+  font-size: 50px;
+}
+
+.fa_md {
+  font-size: 35px;
+}
+
+.fa_xl {
+  font-size: 75px;
+}
+
+.fa_xxl {
+  font-size: 100px;
+}
+
+.fa_sm {
+  font-size: 25px;
+}
+
+.font12 {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.font14 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.font30 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.font35 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.font40 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.myshade {
+  /* border-bottom: 1px solid #dbdbdb;
+  box-shadow: 0px 5px 12px 1px #ff7534;
+   top: 0px;
+  position: fixed;
+  width: 100%;
+  z-index: 9; */
+  background-color: #fff;
+}
+
+.stretch {
+  width: 100%;
+  height: 100%;
+}
+
+.upani:hover {
+  transform: scale(1.5);
+}
+
+.middle {
+  opacity: 1;
+  z-index: 999;
+  color: #000;
+  background-color: #ffffff23;
+  padding: 5px;
+}
+
+.about_banner {
+  background-image: url('https://img.freepik.com/premium-photo/3d-rendering-earth-cardboard-boxes-van-truck-flying-plane_190619-2661.jpg');
+  width: 100%;
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  /* -webkit-filter: grayscale(20%); */
+  /* Safari 6.0 - 9.0 */
+  /* filter: grayscale(20%); */
+  z-index: 0;
+}
+
+.review_banner {
+  background-image: url('https://t3.ftcdn.net/jpg/02/02/17/98/360_F_202179808_o2YPAXShv0rdjQSso7mqOqSprYAvhKEM.jpg');
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  -webkit-filter: grayscale(20%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(20%);
+  z-index: 0;
+}
+
+.contact_banner {
+  background-image: url('https://www.kemarautomation.in/wp-content/uploads/2015/12/contact-us-banner.jpg');
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-repeat: repeat;
+  /* background-attachment:; */
+  background-size: cover;
+  -webkit-filter: grayscale(20%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(20%);
+  z-index: 0;
+}
+
+.job_tracker {
+  background-image: url('https://m.economictimes.com/thumb/msid-73316070,width-1200,height-900,resizemode-4,imgsize-98953/navigaiton-getty1.jpg');
+  width: 100%;
+  height: 300px;
+  background-position: center center;
+  background-repeat: repeat;
+  /* background-attachment:; */
+  background-size: cover;
+  -webkit-filter: grayscale(20%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(20%);
+}
+
+.faq_banner {
+  background-image: url('https://romiljewelry.com/images/faq_banner.jpg');
+  width: 100%;
+  height: 300px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-color: #969592;
+  /* background-attachment:; */
+  background-size: contain;
+  -webkit-filter: grayscale(20%);
+  /* Safari 6.0 - 9.0 */
+  filter: grayscale(20%);
+}
+
+.blog_banner {
+  background-image: url('https://media.istockphoto.com/id/1180178312/photo/blog-header-and-banner-of-laptop-with-typing-female-hands-copy-space-in-grey-color.jpg?s=170667a&w=0&k=20&c=KoiHZHYQu6qSBhnaAH-KgMv1ppP-4-HxO_e2ZvHtpis=');
+  width: 100%;
+  height: 300px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-color: #d6d6d6;
+  /* background-attachment:; */
+  background-size: contain;
+  /* -webkit-filter: grayscale(20%); */
+  /* Safari 6.0 - 9.0 */
+  /* filter: grayscale(20%); */
+}
+
+.news_banner {
+  background-image: url('https://nmc-mic.ca/wp-content/uploads/2019/09/iStock-1084892836.jpg');
+  width: 100%;
+  height: 300px;
+  background-position: left center;
+  background-repeat: repeat;
+  background-color: #d6d6d6;
+  /* background-attachment:; */
+  background-size: contain;
+  /* -webkit-filter: grayscale(20%); */
+  /* Safari 6.0 - 9.0 */
+  /* filter: grayscale(20%); */
+}
+
+/* .active {
+  border-bottom: 4px solid #ff7534;
+  margin-top: 0px;
+ 
+} */
+
+.info-window {
+  height: 150px;
+  width: 350px;
+  border: 2px solid #ff7534;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 5px #ff7534;
+  margin-top: -440px;
+  margin-left: 30px;
+  margin-bottom: 300px;
+  z-index: 2;
+  position: relative;
+  background-color: #fff;
+  text-align: center;
+  justify-content: center;
+}
+
+.map-window {
+  z-index: 1;
+  position: relative;
+}
+
+.fleet_bg {
+  background-image: url('https://www.orbcomm.com/img/solutions/transportation/truck/EU-HeroBanner-Trucks.jpg');
+  width: 100%;
+  height: 500px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-color: #d6d6d6;
+  background-attachment: fixed;
+  background-size: cover;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  z-index: 0;
+}
+
+.fleet_bg2 {
+  background-image: url('https://media.tenor.com/WYKoRh1NGPEAAAAd/truck-delivery.gif');
+  width: 100%;
+  height: 400px;
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+  /* background-attachment: fixed; */
+  background-size: contain;
+  /* filter: blur(3px);
+  -webkit-filter: blur(3px); */
+  z-index: 0;
+}
+
+.blrbg {
+  background-color: #0000006b;
+  border-radius: 20px;
+}
+
+.blrbg2 {
+  background-color: #ffffff84;
+  border-radius: 20px;
+}
+
+.mydiv {
+  /* background-color: rgb(0, 0, 0); */
+  /* Fallback color */
+  /* background-color: rgba(0, 0, 0, 0.4); */
+  /* Black w/opacity/see-through */
+  /* color: white; */
+  font-weight: bold;
+  margin-top: -400px;
+  margin-bottom: 150px;
+  /* border: 3px solid #f1f1f1; */
+  /* position: absolute; */
+  /* top: 10%;
+  left: 50%; */
+  /* transform: translate(50%, 50%); */
+  z-index: 10;
+  /* width: 80%; */
+  /* padding: 20px; */
+  /* text-align: center; */
+}
+
+.mymap {
+  border: 1px solid #999;
+  box-shadow: 5px 5px 12px 2px #ff7534;
+  border-radius: 10px;
+}
+
+.mymap2 {
+  border: 1px solid #999;
+  box-shadow: 3px 3px 8px 2px #ff7534;
+  border-radius: 500px;
+}
+
+.mymap:hover {
+  border: 1px solid #999;
+  box-shadow: -5px -5px 12px 2px #ff7534;
+}
+
+.mybord {
+  border-top: 10px;
+  border-bottom: 20px;
+  border-right: 5px;
+  border-left: 5px;
+  border-color: #222;
+  border-style: solid;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.newbg {
+  background-image: url('https://image.slidesdocs.com/responsive-images/background/orange-business-wave-gradient-abstract-creative-powerpoint-background_5156022840__960_540.jpg');
+  width: 100%;
+  height: 120px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+
+.myctrbg {
+  background-color: #ffffffb5;
+  padding-top: 30px;
+  /* border-radius: 100px; */
+  color: #000;
+  height: 180px;
+  width: 180px;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .myctrbg {
+      background-color: #ffffffb5;
+      padding-top: 30px;
+      color: #000;
+      height: 180px;
+      width: 100%;
+  }
+} */
+
+
+.myctrbg:hover {
+  background-color: #000;
+  padding-top: 30px;
+  /* border-radius: 100px; */
+  color: #fff;
+  height: 180px;
+  width: 180px;
+}
+
+/* @media only screen and (max-width: 600px) {
+  .myctrbg:hover {
+      background-color: #000;
+      padding-top: 30px;
+      color: #fff;
+      height: 180px;
+      width: 100%;
+  }
+} */
+
+.mytestbord {
+  border: 10px;
+  border-radius: 500px;
+  border-style: double;
+  height: 200px;
+  width: 200px;
+}
+
+
+.mycontbg {
+  background-color: #ffffff;
+  /* background-image: url('https://img.freepik.com/premium-vector/white-background-with-yellow-waves-orange-gradient_545537-22.jpg'); */
+  background-size: cover;
+  background-position: top right;
+  border-radius: 50px;
+  border-style: dotted;
+}
+
+.mycontbg2 {
+  /* background-color: #ff7534; */
+  /* background-image: url('https://img.freepik.com/premium-vector/white-background-with-yellow-waves-orange-gradient_545537-22.jpg'); */
+  border-radius: 200px 200px 0px 0px;
+  margin-top: -150px;
+}
+
+.bg-trans {
+  background-color: #00000000;
+}
+
+.theambtn {
+  border-radius: 30px;
+  background-color: #ff7534;
+  text-align: center;
+  height: 40px;
+
+}
+
+.theambtn:hover {
+  border-radius: 30px;
+  background-color: #000000;
+  text-align: center;
+  height: 40px;
+}
+
+.imgover {
+  z-index: 0;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.moveup {
+  margin-top: -200px;
+  z-index: 9;
+  padding: 15px;
+  background-color: #000;
+}
+
+.moveup2 {
+  margin-top: -100px;
+  z-index: 9;
+  padding: 15px;
+}
+
+.moveleft {
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.person-title{
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+/* .forgotModel{
+  margin-top: 80px;
+} */
+
+.forgotModel .modal-header{
+  background-color: #ff7534;
+    color: #fff;
+}
+
+.nav-item{
+  cursor:  pointer;
+}
+
+/* @keyframes example {
+  from {
+      right: 0px;
+  }
+
+  to {
+      right: 250px;
+  }
+
+} */
+
+/* .moveleft:hover {
+  
+  transition: 1s;
+  left: 0;
+} */

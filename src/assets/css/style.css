@@ -135,9 +135,9 @@ select:focus {
     outline: none;
 }
 
-a:hover {
+/* a:hover {
     color: #fff;
-}
+} */
 
 * {
     outline: none !important;
@@ -491,17 +491,7 @@ button {
     display: none;
 }
 
-.common_home_banner.bespoke_studio_wrap {
-    background-image: url(../img/home/home_banner_2.png);
-}
 
-.common_home_banner.roka_exhibit_wrap {
-    background-image: url(../img/home/home_banner_3.png);
-}
-
-.common_home_banner.the_bride_wrap {
-    background-image: url(../img/home/home_banner_4.png);
-}
 
 .tab_section_wrap .tab-content>#controlled-tab-example-tabpane-haldi_gallery.active.show .common_tab_info {
     filter: drop-shadow(0px 32px 32px #EDBC3E);
@@ -700,7 +690,6 @@ button {
 }
 
 .join_the_club_wrap {
-    background-image: url(../img/home/club_bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -2113,7 +2102,6 @@ li.common_option_wrap {
     content: ' ';
     width: 12px;
     height: 8px;
-    background-image: url(http://localhost:3000/static/media/select_arrow.2a2ccb5fb71233ec4403.svg);
     background-size: contain;
     position: absolute;
     right: 24px;

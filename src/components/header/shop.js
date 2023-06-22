@@ -120,10 +120,7 @@ const Shop = ({ menuData, handleClose, handleActive }) => {
             return (
               <React.Fragment key={`collection-${index}`}>
                 <Typography
-                  onClick={() => {
-                    history.push(`/allProductList/${item.name}`);
-                    handleClose();
-                  }}
+                 
                   sx={{
                     py: 2,
                     fontSize: "24px",

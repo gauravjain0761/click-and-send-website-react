@@ -122,7 +122,7 @@ const BestSellingSection = ({ singleData, keyVal, data, selectedId, setSelectedI
                 ))
               }
               <div className="summer_list_link_wrap">
-                <Link to={`/allProductList/${singleList?.title}`}>
+                {/* <Link to={`//${singleList?.title}`}>
                   <div className="summer_list_link">
                     <p className="big-font">Shop all {singleList?.title}</p>
                     <span>
@@ -160,7 +160,7 @@ const BestSellingSection = ({ singleData, keyVal, data, selectedId, setSelectedI
                       </svg>
                     </span>
                   </div>
-                </Link>
+                </Link> */}
                 <p>{singleList?.products?.length ?? 0} options </p>
               </div>
             </div>

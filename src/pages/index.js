@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Switch, Route, Router, useLocation, useHistory } from "react-router-dom";
 import Layout from "../components/Layout";
 import Home from "./home/home";
-import AllProduct from "./allProduct/allProduct";
 import Product from "./product/product";
 import BASE_URL from "../_constant/index";
 import Checkout from "./checkout/index";
@@ -25,6 +24,10 @@ import { messaging } from "../firebase";
 import { toast } from "react-toastify";
 import { AllApiData } from "../services/api";
 import ProdileEdit from "./userProfile/edit";
+import Register from "./register";
+import DriverRegister from "./driverRegister";
+import AboutUs from "./aboutUs";
+import Testimonials from "./testimonials";
 
 export default function Index() {
     const dispatch = useDispatch();
@@ -107,13 +110,37 @@ export default function Index() {
                         <TrackOrder />
                     </Route>
 
+                     */}
+
                     <Route exact path={BASE_URL.BASE_URL + "login"}>
                         <Login />
-                    </Route> */}
-
-                    <Route exact path={BASE_URL.BASE_URL + "*"}>
-                        <ErrorPage />
                     </Route>
+
+                    <Route exact path={BASE_URL.BASE_URL + "register"}>
+                        <Register />
+                    </Route>
+
+                    {/* Driver Register */}
+                    <Route exact path={BASE_URL.BASE_URL + "driverRegister"}>
+                        <DriverRegister />
+                    </Route>
+
+                    {/* // about us page */}
+                   <Route exact path={BASE_URL.BASE_URL + "aboutUs"}>
+                        <AboutUs /> 
+                    </Route>
+
+                    {/* testimonials page */}
+                    <Route exact path={BASE_URL.BASE_URL + "testimonials"}>
+                        {/* <AboutUs /> */}
+                        <Testimonials />
+                    </Route>
+                   
+
+
+                    {/* <Route exact path={BASE_URL.BASE_URL + "*"}>
+                        <ErrorPage />
+                    </Route> */}
 
                 </Switch>
             </Layout>

@@ -3,7 +3,6 @@ import { Button, Col, Container, Form, Modal, Row } from 'react-bootstrap';
 import { Link, useParams } from 'react-router-dom';
 import "./orderConfirmation.css";
 import FooterStrip from "../../components/footer/footerStrip";
-import ShippingStatus from '../../components/OrderConfirmation/shippingStatus';
 import { Box } from '@mui/material';
 import { BsCheckLg } from 'react-icons/bs';
 import { useGetOrderByIdQuery, useGetTrackOrderMutation, useOrderReturnMutation } from '../../services/api';
@@ -578,7 +577,6 @@ const OrderConfirmation = () => {
 
             </div>
           </Container>
-          {/* <ShippingStatus /> */}
           <Box className="footer-conteiner">
             <FooterStrip />
           </Box>

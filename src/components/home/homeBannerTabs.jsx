@@ -97,7 +97,7 @@ const HomeBannerTabs = ({ data, singleData, setSelectedId, selectedId }) => {
 
                           }
                           <div className="summer_list_link_wrap">
-                            <Link to={`/allProductList/${item?.name}`}>
+                            {/* <Link to={`/allProductList/${item?.name}`}>
                               <div className="summer_list_link">
                                 <p className="big-font">Shop all  {singleCollection?.title}</p>
                                 <span>
@@ -135,7 +135,7 @@ const HomeBannerTabs = ({ data, singleData, setSelectedId, selectedId }) => {
                                   </svg>
                                 </span>
                               </div>
-                            </Link>
+                            </Link> */}
                             <p>{singleCollection?.products?.length ?? 0} unique designs</p>
                           </div>
                         </div>
